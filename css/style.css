@@ -1,0 +1,177 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+header {
+    background: white;
+    box-shadow: 0px .25px 10px rgb(184, 184, 184);
+    z-index: 9;
+}
+.logo {
+    width: 20%;
+    padding: 1%;
+    text-align: center;
+   
+    
+}
+#logoimage {
+    width: 70px;
+    margin-top: 8px;
+    
+}
+nav {
+    width: 71%;
+    padding: 1%;
+}
+.menuList {
+    width: 50%;
+    float: right;
+    margin-right: 3%; 
+    text-align: right;
+    justify-content: center;
+}
+.menuItems {
+    margin-left: 50px;
+    margin-right: 2%;
+    font-family: Rokkitt, Arial, sans-serif;
+    font-size: 20px;
+}
+.herocontainer {
+        position: relative;
+        text-align: center;
+        color: white;
+        z-index: -1;
+}
+.bottom-left {
+    font-family: Rokkitt, Arial, sans-serif;
+    font-weight: 900;
+    position: absolute;
+    bottom: 150px;
+    left: 8%;
+    color: black;
+    font-size: 55px;
+}
+hr {
+    position: absolute;
+    bottom: 138px;
+    border:none;
+    border-top:1px solid;
+    color:black;
+}
+.subheading {
+    font-family: Chivo-light, Arial, sans-serif;
+    position: absolute;
+    bottom: 90px;
+    left: 8%;
+    color: black;
+    font-size: 30px;
+}
+
+.content {
+    font-family: Chivo-light, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 55%;
+    margin-top: -30px;
+    right: 0;
+    background-color: white;
+    position: absolute;
+    box-shadow: 2px 5px 5px lightgrey;
+    text-align:right;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+.hero {
+    width: 100%;
+}
+.portrait {
+    width: 28%;
+    margin-top: -25%;
+    margin-right: 15%;
+    box-shadow: 2px 5px 5px lightgrey;
+}
+.about {
+    padding-left: 45px;
+    padding-right: 15%;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: right;
+    margin-left: auto;
+    line-height: 30px;
+}
+button {
+    padding: 8px;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}    
+.socialIcons {
+    left: 10%;
+    margin-left: 8%;
+    margin-top: 50px;
+    width: 20%;
+    justify-content: space-between;
+}
+body {
+    background-color: #F8F5F5;
+}
+.button2 {
+    margin-top: 30px;
+}
+footer {
+    background-color: #373738;
+    width: 100%;
+    margin-top: 200px;
+    height: 350px;
+}
+.footerList1 {
+    width: 40%;
+    display: inline-block;
+    list-style: none;
+    text-align: start;
+    color: white;
+    margin-top: 50px;
+    margin-left: 5%;
+    
+}
+.footerList2 {
+    width: 41%;
+    display: inline-block;
+    list-style: none;
+    text-align: end;
+    margin-top: 50px;
+    margin-right: 5%;
+}
+.footer1element {
+    margin-top: 10px;
+    padding-top: 10px;
+    font-family: Rokkitt, Arial, sans-serif;
+    font-size: 18px;
+
+}
+.footer2element {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Rokkitt, Arial, sans-serif;
+    font-size: 18px;
+}
+.footerIcons {
+    float: right;
+    padding-top: 10px;
+    text-align: end;
+    width: 15%;
+    justify-content: space-between;
+    margin-right: 8%;
+    margin-top: 50px;
+}
+.copyrightText {
+    color: white;
+    margin-top: 50px;
+    padding-top: 15px;
+    margin-left: 8%;
+    font-family: Rokkitt, Arial, sans-serif;
+    font-size: 15px;
+}
+
